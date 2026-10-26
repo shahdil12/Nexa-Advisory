@@ -52,6 +52,6 @@ if (enquiryForm) {
       `Service required: ${values.get("service")}`,
       `Message: ${values.get("message") || "Not provided"}`
     ].join("\n");
-    window.location.assign(`https://wa.me/?text=${encodeURIComponent(message)}`);
+    window.location.assign(`https://wa.me/971561907223?text=${encodeURIComponent(message)}`);
   });
 }
